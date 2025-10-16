@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Registration</h1>
+    <hr style="border-top: 1px solid rgb(0, 0, 0);">
+    <br>
+
+    <form method="post" action="controller.php" style="text-align: center;">
+        <!-- input username -->
+        <div>
+            <div>First Name</div>
+            <input type="text" name="firstname" required>
+        </div>
+        
+        <!-- input age -->
+        <div>
+            <div>Age</div>
+            <input type="number" name="age" min="1" required>
+        </div>
+    
+        <!-- input gender -->
+        <div>
+            <br>
+            <label>Gender</label>
+            <select name="gender" id="gender" required>
+            <option value="" disabled selected> Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            </select>
+        </div>
+        
+        <!-- input quote in life -->
+        <div>
+            <br>
+            <div>Quote in Life</div>
+            <textarea name="quote" id="" rows="10" cols="50" required style="resize: none;"></textarea >
+        </div>
+
+        
+        <div>
+            <br>
+        <!-- submit all inputs to control.php -->
+            <input type="submit" style="border-radius: 2vh;">
+
+        <!-- clear all inputss -->
+            <input type="reset" style="border-radius: 2vh;">
+        </div>
+
+    </form>
+</body>
+</html>
