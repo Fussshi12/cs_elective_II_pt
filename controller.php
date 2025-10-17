@@ -15,7 +15,8 @@ $quote = $_POST['quote'];
 </head>
 <body>
     <h1 style="text-align: center;">
-    <?php 
+    <?php
+//printing of variables
         echo" You are $firstname, a $age-year-old $gender. Your motto in life is: $quote";
     ?>
     </h1>
