@@ -1,5 +1,5 @@
 <?php
-//retriveal of inputs from view.html
+//retrival of inputs from view.html
 $firstname = $_POST['firstname'];
 $age = $_POST['age'];
 $gender = $_POST['gender'];
